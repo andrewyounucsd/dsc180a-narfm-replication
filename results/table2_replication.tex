@@ -1,0 +1,11 @@
+\begin{tabular}{lrrrrrr}
+\toprule
+Setting & Acc. ours (%) & Acc. paper (%) & FID ours (256/class) & FID paper (2048/class) & Time ours (s/img, bs 64, T4) & Time paper (s/16, A100) \\
+\midrule
+Unguided & 10.00 & -- & 157.76 & -- & 0.68 & -- \\
+Noise align. only ($\lambda=3$) & 61.99 & 62.00 & 91.01 & 99.00 & 0.40 & 5.80 \\
+Noise align. only ($\lambda=8$) & 79.80 & 80.00 & 111.02 & 120.00 & 0.41 & 5.80 \\
+RFM-only (all steps) & 96.09 & 94.80 & 95.29 & 40.30 & 0.80 & 6.80 \\
+NA-RFM & 95.98 & 96.60 & 93.41 & 41.40 & 0.68 & 6.20 \\
+\bottomrule
+\end{tabular}
