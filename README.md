@@ -1,6 +1,6 @@
 # Replicating NA-RFM's CIFAR-10 experiment (Table 2)
 
-DSC 180A, section D32, Fall 2026 · mentor: Yusu Wang
+DSC 180A, D32, Fall 2026, Mentor: Yusu Wang
 
 This repository reproduces Table 2 of Wang, Belkin and Wang, *General and Efficient Steering of Diffusion Models* (ICML 2026, [arXiv 2602.11395](https://arxiv.org/abs/2602.11395)) with the paper's public code, [isotrivial/na-rfm](https://github.com/isotrivial/na-rfm). It is part 4 of the Nov 4 assignment.
 
